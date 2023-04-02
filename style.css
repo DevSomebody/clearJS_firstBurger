@@ -69,9 +69,14 @@ body{
     transform: translateY(10px);
 }
 
+.header.open .header__burger-btn{
+    width: 60px;
+    height: 60px;
+}
+
 .header.open .header__burger-btn span{
     background-color: white;
-    width: 100%;
+    width: 50px;
 }
 
 .header.open .header__burger-btn span:nth-child(1){
@@ -138,6 +143,5 @@ menu__link{
 
     .header.open .menu{
         transform: translateX(100%);
-
     }
 }
